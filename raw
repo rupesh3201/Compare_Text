@@ -1,20 +1,2 @@
 <
-    <script>
-    function campare_String()
-    {
-        const inputElement1 = document.getElementById("Input1")
-        const inputElement2 = document.getElementById("Input2")
-        const resultElement = document.getElementById("resultElement")
-        if(inputElement1.value == inputElement2.value)
-        {
-            resultElement.innerText = "Text Matched !!";
-            resultElement.style.color="green"
-        }
-        else
-        {
-            resultElement.innerText = "Text Not Matched ";
-            resultElement.style.color="red"
-
-        }
-    }
-   </script>
+    
