@@ -16,12 +16,18 @@
            height: 100px;
            width: 250px;
            border-radius: 5px;
-           box-shadow: 0px 0px 10px 1px black;
+           box-shadow: 0px 0px 10px 1px navy;
            border: none;
            border: none;
            background-color: rgb(255, 252, 252);
            font-size: 30px;
+           font-weight: bold;
            
+        }
+        .Input1:hover
+        {
+            box-shadow: 0px 0px 10px 1px red;
+
         }
         .Heading
         {
@@ -60,6 +66,7 @@
     
 </head>
 <body class="body">
+    <!-- compare string -->
     <h1 class=" Heading"> Text Compare</h1>
 <div class="div">
  
@@ -76,24 +83,20 @@
         const inputElement1 = document.getElementById("Input1")
         const inputElement2 = document.getElementById("Input2")
         const resultElement = document.getElementById("resultElement")
-        
-    }
-    if(inputElement1.value == inputElement2.value)
-   {
+        if(inputElement1.value == inputElement2.value)
+        {
        resultElement.innerText = "Text Matched !!";
        resultElement.style.color="green"
-   }
-   else
-   {
+        }
+        else
+        {
        resultElement.innerText = "Text Not Matched ";
        resultElement.style.color="red"
 
-   }
+        }
+    }
    //all set
-   </script>
-   
-   
-
-  
+   </script>   
 </body>
 </html>
+
